@@ -1,0 +1,81 @@
+#practical-publishing{
+    @include flex-layout(column);
+    width: 100%;
+    height: 200vh;
+    gap: 10rem;
+    h2{
+        width: 100%;
+        font-size: 5.4rem;
+        color: #1E90FF;
+        text-align: center;
+    }
+    h3{
+        font-size: 3.8rem;
+        color: #60A5FA;
+        margin-top: 2rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    .skills{
+        font-size: 1.4rem;
+    }
+    .project-desc{
+        margin-top: 2rem;
+        @include flex-layout(column);
+        border: 1px solid #E0E0E0;
+        border-radius: 1.6rem;
+        padding: 1.6rem;
+        .small-desc{
+            font-size: 1.5rem;
+        }
+    }
+    .practical-projects{
+        width: 100%;
+        @include flex-layout(row,space-around);
+        .vogue{
+            @include flex-layout(column);
+            .vogue-img{
+                width: 360px;
+                height: 420px;
+                background-image: url(../../images/main-vogue.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 1.6rem;
+            }
+        }
+        .bookstore{
+            @include flex-layout(column);
+            .book-img{
+                width: 360px;
+                height: 420px;
+                background-image: url(../../images/main-bookstore.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 1.6rem;
+            }
+        }
+        .pinterest{
+            @include flex-layout(column);
+            .pin-img{
+                width: 360px;
+                height: 420px;
+                background-image: url(../../images/main-pinterest.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 1.6rem;
+            }
+        }
+        .logger{
+            @include flex-layout(column);
+            .logger-img{
+                width: 360px;
+                height: 420px;
+                background-image: url(../../images/main-logger.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 1.6rem;
+            }
+        }
+    }
+}

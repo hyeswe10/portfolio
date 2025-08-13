@@ -1,0 +1,93 @@
+#clone-coding{
+    @include flex-layout(column);
+    width: 1200px;
+    height: 180vh;
+    gap: 25rem;
+    h2{
+        width: 100%;
+        font-size: 5.4rem;
+        color: #1E90FF;
+        text-align: center;
+    }
+    .clone-projects{
+        @include flex-layout(column);
+        gap: 5rem;
+        h3{
+            font-size: 3.6rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        button{
+            width: 30%;
+            outline: none;
+            background-color: transparent;
+            border: 1px solid #E0E0E0;
+            padding: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            &:hover{
+                background-color: #E0E0E0;
+                color: #2B2B2B;
+            }
+        }
+        hr{
+            margin-top: 1rem;
+            width: 90%;
+            opacity: 0.5;
+        }
+        .netflix{
+            text-align: center;
+            @include flex-layout(column);
+            gap: 1rem;
+            padding: 1.5rem;
+            border: 1px solid #E0E0E0;
+            border-radius: 1.6rem;
+            .net-img{
+                position: relative;
+                width: 350px;
+                height: 270px;
+                background-image: url(../../images/main-netflix.png);
+                background-position: center;
+                background-size: contain;
+                border-radius: 1.6rem;
+            }
+        }
+        .mom-air{
+            @include flex-layout();
+            gap: 10rem;
+            text-align: center;
+            .momentum{
+                @include flex-layout(column);
+                gap: 1rem;
+                padding: 1.5rem;
+                border: 1px solid #E0E0E0;
+                border-radius: 1.6rem;
+                .mom-img{
+                    width: 350px;
+                    height: 270px;
+                    background-image: url(../../images/main-momentum.png);
+                    background-position: center;
+                    background-size: contain;
+                    border-radius: 1.6rem;
+                }
+            }
+            .air-bnb{
+                @include flex-layout(column);
+                gap: 1rem;
+                padding: 1.5rem;
+                border: 1px solid #E0E0E0;
+                border-radius: 1.6rem;
+                .ab-img{
+                    width: 350px;
+                    height: 270px;
+                    background-image: url(../../images/main-airbnb.png);
+                    background-position: center;
+                    background-size: contain;
+                    border-radius: 1.6rem;
+                }
+            }
+        }
+    }
+}

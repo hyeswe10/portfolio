@@ -1,0 +1,38 @@
+#contact{
+    position: relative;
+    width: 95%;
+    height: 90vh;
+    background-color: #1E90FF;
+    margin-bottom: 5vh;
+    h3{
+        font-size: 5.4rem;
+        position: absolute;
+        top: 50%;
+        left: 3rem;
+        transform: translateY(-50%);
+    }
+    span{
+        color: #FFD166;
+    }
+    .contact-info{
+        position: absolute;
+        bottom: 5%;
+        left: 3rem;
+        display: flex;
+        gap: 2rem;
+        .title{
+            li{
+                padding: 0.5rem;
+                font-size: 2.5rem;
+                text-align: right;
+            }
+        }
+        .my-info{
+            li{
+                padding: 0.5rem 0;
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}

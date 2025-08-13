@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    display: block;
+    cursor: pointer;
+}
+
+input, label{
+    display: block;
+    font-size: inherit;
+    color: inherit;
+}

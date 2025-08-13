@@ -1,0 +1,49 @@
+// 색상표
+
+:root{
+    //메인페이지 색상
+    --main-point : #1E90FF;
+    --main-text : #E0E0E0;
+    --sub-point : #60A5FA;
+    --sub-text : #2B2B2B;
+    --main-bg : #181818;
+
+    //쇼핑몰 색상
+    --sm-point : #4CAF50;
+    --sm-btn-color : #FBC02D;
+    --sm-bg : #181D18;
+
+    //주차장 색상
+    --dp-point : #B6B1D1;
+    --dp-sub-point : #FFD166;
+    --dp-btn-color : #B3D4FF;
+    --dp-bg : #3C3E66;
+
+    //넷플릭스 색상
+    --net-title : #E6D5B8;
+    --net-point : #FFF3E0;
+    --net-bg : #141414;
+
+    //모멘텀 색상
+    --mm-title : #3E4C59;
+    --mm-point : #B6B1D1;
+    --mm-sub-point : #60A5FA;
+    --mm-bg : #FFF3E0;
+
+    //에어비앤비 색상
+    --ab-text : #4B3F36;
+    --ab-logo : #FF5A5F;
+    --ab-point : #00C2A8;
+    --ab-bg : #F2F2F2;
+}
+
+//폰트 사이즈
+$main-big : 2.2rem;
+$bold-big : 2rem;
+$title-bold : 8.4rem;
+$main-context : 1.2rem;
+$note-text : 1.2rem;
+$sub-title : 4.5rem;
+$sub-sub : 4.8rem;
+$medium-font : 2.4rem;
+$small-medium : 2rem;
