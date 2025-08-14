@@ -15,7 +15,7 @@
         font-size: $main-context;
     }
     .main-index{
-        width: 600px;
+        width: 800px;
         @include flex-layout(column);
         gap: 5rem;
         .top,

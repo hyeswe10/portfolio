@@ -1,0 +1,6 @@
+#shopping-mall{
+    @include flex-layout(column);
+    height: 100%;
+    width: 100%;
+    background-color: var(--sm-bg);
+}

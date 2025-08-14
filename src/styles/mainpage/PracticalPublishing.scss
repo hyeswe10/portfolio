@@ -5,29 +5,29 @@
     gap: 10rem;
     h2{
         width: 100%;
-        font-size: 5.4rem;
-        color: #1E90FF;
+        font-size: $sub-title;
+        color: var(--main-point);
         text-align: center;
     }
     h3{
-        font-size: 3.8rem;
-        color: #60A5FA;
+        font-size: $bold-big;
+        color: var(--sub-point);
         margin-top: 2rem;
     }
     h4{
-        font-size: 2rem;
+        font-size: $small-medium;
     }
     .skills{
-        font-size: 1.4rem;
+        font-size: $main-context;
     }
     .project-desc{
         margin-top: 2rem;
         @include flex-layout(column);
-        border: 1px solid #E0E0E0;
+        border: 1px solid var(--main-text);
         border-radius: 1.6rem;
         padding: 1.6rem;
         .small-desc{
-            font-size: 1.5rem;
+            font-size: $main-context;
         }
     }
     .practical-projects{
