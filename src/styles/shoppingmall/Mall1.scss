@@ -1,0 +1,29 @@
+#mall1{
+    box-sizing: border-box;
+    height: 80vh;
+    width: 100%;
+    padding: 6rem;
+    @include flex-layout(column,flex-start,flex-start);
+    gap: 1rem;
+    .link-wrap{
+        width: 100%;
+        @include flex-layout($justify:flex-start);
+        gap: 2rem;
+        font-size: $main-big;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        li{
+            color: var(--sm-btn-color);
+            padding: 1.1rem 2.2rem;
+            border: 3px solid var(--sm-btn-color);
+            border-radius: 1.4rem;
+        }
+    }
+    h1{
+        font-size: $sub-title;
+        color: var(--sm-point);
+    }
+    p{
+        font-size: $main-context;
+    }
+}

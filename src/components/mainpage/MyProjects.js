@@ -1,6 +1,8 @@
 import { BsStars } from "react-icons/bs";
+import { useNavigate } from "react-router";
 
 const MyProjects = () => {
+    const navigate = useNavigate();
     return (
         <div id="my-projects">
             <h2>MY PROJECTS</h2>
@@ -56,7 +58,7 @@ const MyProjects = () => {
                         </div>
                         <h3>SHOPPING MALL</h3>
                         <p className="project-desc">JSON 데이터를 활용해 상품 리스트를 구성하고,<br/>사용자가 상품을 클릭하면<br/>상세 정보를 확인하고 장바구니에 담을 수 있는 React 쇼핑몰</p>
-                        <button>이동하기</button>
+                        <button onClick={()=>{navigate("/shoppingmall")}}>이동하기</button>
                     </div>
                 </div>
             </div>

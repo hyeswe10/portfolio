@@ -1,0 +1,27 @@
+#mall4{
+    height: 100vh;
+    width: 100%;
+    @include flex-layout(column);
+    h2{
+        padding: 6rem;
+        align-self: flex-start;
+        font-size: $sub-sub;
+        color: var(--sm-point);
+    }
+    .over-desc{
+        margin: 5rem 0;
+        box-sizing: border-box;
+        width: 50%;
+        @include flex-layout(column,center,flex-start);
+        gap: 6rem;
+        h3{
+            font-size: $small-medium;
+            margin-bottom: 2rem;
+        }
+        li{
+            margin: 0 2rem;
+            list-style: circle;
+            font-size: $main-context;
+        }
+    }
+}

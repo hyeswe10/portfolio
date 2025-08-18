@@ -1,0 +1,29 @@
+#mall3{
+    height: 150vh;
+    width: 100%;
+    @include flex-layout(column);
+    h2{
+        align-self: flex-start;
+        font-size: $sub-sub;
+        color: var(--sm-point);
+        padding: 6rem;
+    }
+    .spec-info{
+        margin: 5rem 0;
+        @include flex-layout(column,center,flex-start);
+        gap: 3rem;
+        h3{
+            font-size: $small-medium;
+        }
+        li{
+            font-size: $main-context;
+            list-style: circle;
+            margin: 0 2rem;
+        }
+        .contribution{
+            .list-wrap{
+                padding: 0 9rem;
+            }
+        }
+    }
+}
