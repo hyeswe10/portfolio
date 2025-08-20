@@ -2,9 +2,14 @@
     height: 100vh;
     width: 100%;
     @include flex-layout(column);
+    gap: 6rem;
     .main-img{
-        width: 1000px;
-        height: 500px;
+        width: 1021px;
+        height: 550px;
+        background-image: url(../../images/sm-1.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 1.2rem;
     }
     .text-wrap{
         text-align: center;

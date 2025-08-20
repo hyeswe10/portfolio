@@ -1,6 +1,8 @@
 #shopping-mall{
+    box-sizing: border-box;
     @include flex-layout(column);
     height: 100%;
     width: 100%;
     background-color: var(--sm-bg);
+    padding: 7rem;
 }

@@ -10,6 +10,17 @@
 //타이틀 폰트
 @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 
+//쇼핑몰 이사만루 폰트
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//쇼핑몰 원티드산스 폰트
+@import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+
 html{
     font-size : 62.5%; //10px
     letter-spacing: -0.02em;
