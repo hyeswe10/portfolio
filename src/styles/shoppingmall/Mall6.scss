@@ -55,6 +55,7 @@
     }
     .font-group{
         @include flex-layout(column);
+        gap: 3rem;
         .font-wrap{
             @include flex-layout();
             gap: 4rem;
